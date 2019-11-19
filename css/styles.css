@@ -1,0 +1,364 @@
+/* across all pages */
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1em
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #E4FDE1;
+    padding: 14px;
+    color: #3E594B;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E594B;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+ol {
+    font-size: 18px;
+}
+
+/*colored boxes*/
+.mint {
+    margin-top: 14px;
+    background-color:#E4FDE1;
+    text-align: center;
+    padding: 10px;
+    padding-top: 2px;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+	color: #3E594B;
+}
+
+.blue {
+    /*text: navy*/
+    margin-top: 14px;
+    background-color:#C1CEFE;
+    text-align: center;
+    padding: 10px;
+    padding-top: 2px;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+}
+
+.yellow {
+    /*text: #9C9346*/
+    background-color: #F3F7B7;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.green {
+    /*text: #585858*/
+    background-color: #C5D8C6;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.brightblue {
+    /*text: #175EA1*/
+    background-color: #A0DDFF;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.orange {
+    /*text: E85E00*/
+    background-color: #FFB98B;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.purple {
+    /*text: purple*/
+    background-color: #E3D7FF;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.pink {
+    /*text: hot pink*/
+    background-color: #F3D0D1;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.gray {
+    /*text: gray*/
+    background-color: #C9CCD1;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+.beige {
+    /*text: darkgoldenrod*/
+    background-color: #F7EFD5;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+/*footer*/
+footer {
+    padding: 6px;
+    text-align: center;
+}
+
+footer a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: skyblue;
+}
+
+/* nav menu for all pages */
+#navtabs {
+    width: 100%;
+}
+
+.tab {
+    margin: 0 auto;
+    float: left;
+    width: 18%;
+    padding: 4px;
+    height: 15px;
+    text-align: center;
+}
+
+.menu {
+    width:100%;
+    content:"";
+    display: table;
+    clear: both;
+    padding: 6px;
+}
+#navtabs a:link, a:visited {
+    background-color: #3E594B;
+    color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#navtabs a:hover, a:active {
+    background-color: white;
+    color: #3E594B;
+}
+
+/* style for food related content */
+.food {
+    background-color: #FDED7C;
+    padding: 8px;
+    padding-top: 1px;
+}
+
+/* style for travel related content */
+.travel {
+    background-color: #CCFFEE;
+    padding: 8px;
+    padding-top: 1px;
+}
+
+/* two clmns */
+.column {
+    display: table-cell;
+    float: left;
+    width: 50%;
+  
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+/*three clmns*/
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.yellowglow {
+ 	text-shadow: 2px 2px 5px gold;
+	color: #9C9346
+}
+
+.blueglow {
+ 	text-shadow: 2px 2px 5px blue;
+}
+
+.orangeglow {
+ 	text-shadow: 2px 2px 5px orangered;
+	color: #E85E00
+}
+
+.purpleglow {
+ 	text-shadow: 2px 2px 5px purple;
+	color: purple;
+}
+
+.greenglow {
+	text-shadow: 2px 2px 5px green;
+	color: #585858
+}
+
+#fliptext {
+  color:#999;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+  position:fixed;
+  width:100%;
+  bottom:45%;
+  display:block;
+  text-align:center;
+  position: relative;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:orange;
+}
+#flip div:first-child div {
+  background:#4ec7f3;
+}
+#flip div:last-child div {
+  background:mediumorchid;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+.tabs {
+  overflow: hidden;
+  padding-top: 6px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tabs button {
+  background-color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tabs button:hover {
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 6px 12px;
+}

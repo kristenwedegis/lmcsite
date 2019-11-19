@@ -1,0 +1,175 @@
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    
+    aside a:link {
+    color: blue;
+    text-decoration: none;
+    }
+
+    aside a:visited {
+    color: blue;
+    text-decoration: none;
+    }
+
+    aside a:hover {
+    color: skyblue;
+    }
+
+	#worldmap
+	{
+		padding-top: 14px;
+		padding-left: 14px;
+		padding-right: 14px;
+		padding-bottom: 0px;
+		height: auto;
+		width: 95%;
+		align-content: center;
+	}
+	#canada {
+		z-index: 1;
+		position:absolute;
+		left: 170px;
+		top: 460px;
+		height: 30px;
+		width: auto;
+	}
+	#canada:hover {
+		height: 50px;
+		width: auto;
+		left: 150px;
+		top: 460px;
+	}
+	#us {
+		z-index: 1;
+		position:absolute;
+		left: 165px;
+		top: 535px;
+		height: 30px;
+		width: auto;
+	}
+	#us:hover {
+		left: 145px;
+		top: 540px;
+		height: 50px;
+		width: auto;
+	}
+	#australia {
+		z-index: 1;
+		position:absolute;
+		right: 160px;
+		bottom: -250px;
+		height: 30px;
+		width: auto;
+	}
+	#australia:hover {
+		right: 140px;
+		bottom: -265px;
+		height: 50px;
+		width: auto;
+	}
+	#china {
+		z-index: 1;
+		position:absolute;
+		right: 265px;
+		bottom: -12px;
+		height: 30px;
+		width: 60px;
+	}
+	#china:hover {
+		right: 270px;
+		bottom: -14px;
+		height: 50px;
+		width: auto;
+	}
+	#japan {
+		z-index: 1;
+		position:absolute;
+		right: 210px;
+		bottom: -75px;
+		height: 30px;
+		width: auto;
+	}
+	#japan:hover {
+		right: 180px;
+		bottom: -75px;
+		height: 50px;
+		width: auto;
+	}
+	#southkorea {
+		z-index: 1;
+		position:absolute;
+		right: 210px;
+		top: 570px;
+		height: 30px;
+		width: auto;
+	}
+	#southkorea:hover {
+		right: 180px;
+		top: 570px;
+		height: 50px;
+		width: auto;
+	}
+	.grayglow {
+		text-shadow: 2px 2px 5px gray;
+	}
+	.pinkglow {
+		text-shadow: 2px 2px 5px hotpink;
+	}
+	.beigeglow {
+		text-shadow: 2px 2px 5px #918151;
+	}

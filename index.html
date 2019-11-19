@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="My Personal Portfolio">
+    <title>KristenWedegis</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quattrocento+Sans&display=swap" rel="stylesheet" type="text/css">   
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="/js/javascript.js"></script>
+    <style>        
+      /*navigational tip links*/
+      #navtips a:link {
+          text-decoration: none;
+          color: navy;
+      }
+      #navtips a:visited {
+          text-decoration: none;
+          color: navy;
+      }
+      #navtips a:hover, a:active {
+          color: blue;
+      }
+      /*blue header*/
+      header {
+          background: url(/images/hello.JPG);
+          background-repeat: no-repeat;
+          background-size: 1300px auto;
+          height: 600px;
+      }
+      .container {
+        position: relative;
+      }
+      .realign {
+        position: absolute;
+        top: 40px;
+        right: 200px;
+        z-index: 1;
+      }
+      #bubblepos {
+        position: absolute;
+        top: 40px;
+        right: 100px;
+      }
+	  h2 {
+		color: navy;
+      }
+	  #navtabs {
+		width: 100%;
+	  }
+	  .mint {
+		padding-bottom: 20px;	
+       }
+    </style>
+</head>
+    
+<body>
+    <header>		
+      <div class="container">
+        <div class="realign">
+          <h1 id="#bubble">Hello &amp; Welcome!<br>Feel free to explore &amp; <br>learn more about my<br>
+              <span
+                   class="txt-rotate"
+                   data-period="2000"
+                   data-rotate='[ "life.", "resume.", "adventures.", "aspirations."]'>
+              </span>
+          </h1>
+        </div>
+      </div>
+      <img id="bubblepos" src="images/bubble.png" height= "400px">
+    </header>
+
+    <main> 
+	  <section class="mint">
+		<div id="navtabs">
+        <nav class="menu">
+            <p class="tab"><a href="index.html" title="link to Homepage"><b>HOME</b></a></p>
+            <p class="tab"><a href="AboutMe.html" title="link to AboutMe"><b>ABOUT ME</b></a></p>
+            <p class="tab"><a href="MyResume.html" title="link to MyResume"><b>MY RESUME</b></a></p>
+            <p class="tab"><a href="MyAdventures.html" title="link to MyAdventures"><b>MY ADVENTURES</b></a></p>
+            <p class="tab"><a href="PhotoGallery.html" title="link to PhotoGallery"><b>PHOTO GALLERY</b></a></p>
+        </nav>    
+        </div>
+	  </section>
+		
+        <div class="row">
+            <div class="column">
+                <section class="blue" style="border-right:7px solid white; padding-bottom: 8px">
+                    <h2 class="blueglow"> Welcome! </h2>
+                    <p> Thank you for visiting my site! My name is Kristen Wedegis. I am a current Computational Media student at the Georgia Institute of Technology, a Virtual Design &amp; Construction intern at Carroll Daniel Construction Company, and a loved Child of God. This site showcases what I believe to be the most important facets of myself and reccounts some of the adventures I have had on God's green earth thus far.<br><br>
+                    </p>
+                </section>
+            </div>
+            
+            <div class="column">
+                <section class="blue" style="border-left:7px solid white;">
+                    <h2 class="blueglow">Feel free to explore!</h2>
+                    <p>Click on a page name below or one of the buttons above to visit a page!</p>
+                    <ul id="navtips"; style="list-style-type:circle; text-align: left;">
+                        <li>Learn more about me in the <a href="AboutMe.html" title="link to AboutMe"><b>ABOUT ME</b></a> page</li>
+                        <li>Read about my educational and technical backgrounds on <a href="MyResume.html" title="link to MyResume"><b>MY RESUME</b></a></li>
+                        <li>Journey through accounts of things I have done in <a href="MyAdventures.html" title="link to MyAdventures"><b>MY ADVENTURES</b></a></li>
+                        <li>A picture is worth a thousand words. See some of my favorites in the <a href="PhotoGallery.html" title="link to PhotoGallery"><b>PHOTO GALLERY</b></a></li>
+                    </ul>  
+                </section>
+            </div>
+        </div>
+    </main>
+    
+</body>
+    
+</html>

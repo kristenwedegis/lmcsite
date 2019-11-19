@@ -1,0 +1,121 @@
+.photorow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.photocolumn {
+  flex: 24%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.photocolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .photocolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .photocolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#photocontainer {
+ width: 1000px;
+ overflow: hidden;
+ margin: 50px auto;
+ background: white;
+}
+
+.photobanner {
+ height: 200px;
+ width: 4000px;
+ margin-bottom: 10px;
+}
+
+.photobanner img {
+	height: 200px;
+}
+
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+.first {
+ -webkit-animation: bannermove 55s linear infinite;
+    -moz-animation: bannermove 55s linear infinite;
+     -ms-animation: bannermove 55s linear infinite;
+      -o-animation: bannermove 55s linear infinite;
+         animation: bannermove 55s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+}
